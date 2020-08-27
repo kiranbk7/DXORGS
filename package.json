@@ -1,0 +1,24 @@
+{
+  "name": "dxorgs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "child_process": "^1.0.2",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "node-cache": "^5.1.2",
+    "open": "^7.2.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "KK",
+  "license": "ISC",
+  "description": "List SFDX authorised orgs"
+}
